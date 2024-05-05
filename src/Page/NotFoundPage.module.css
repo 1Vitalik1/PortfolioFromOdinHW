@@ -3,12 +3,19 @@
     top: 30vh;
 }
 .button{
-    background-color: #366EC0;
+    background-color: transparent;
     border-radius: 3px;
-    border: solid 1px black;
+    border: solid 1px #366EC0;
     margin: auto;
-    padding: 0.5vh;
+    padding: 1vh;
     width: max-content;
+    div{
+        color: whitesmoke;
+        text-decoration: none;
+        margin: 0;
+        border: 0;
+        padding: 5px 10px;
+    }
 }
 .button:hover{
     background-color: #25272F;

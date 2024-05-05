@@ -67,7 +67,8 @@
 
     }
     .contacts{
-        margin: auto;
+        margin: auto 0px;
+
     }
     
 }

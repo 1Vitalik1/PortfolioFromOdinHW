@@ -45,10 +45,10 @@ const Header = () => {
         <div className={classes.links}>
             <hr className={classes.spliter}></hr>
             <Link className={classes.link} to={'/main'}>Главная</Link>
-            <Link className={classes.link} to={'/main'}>Портфолио</Link>
-            <Link className={classes.link} to={'/main'}>Условия</Link>
-            <Link className={classes.link} to={'/main'}>Контакты</Link>
-            <Link className={classes.link} to={'/main'}>Блог</Link>
+            <Link className={classes.link} to={'/portfolio'}>Портфолио</Link>
+            <Link className={classes.link} to={'/conditions'}>Условия</Link>
+            <Link className={classes.link} to={'/contacts'}>Контакты</Link>
+            <Link className={classes.link} to={'/blog'}>Блог</Link>
             <hr className={classes.spliter}></hr>
         </div>
         <div className={classes.contacts}>

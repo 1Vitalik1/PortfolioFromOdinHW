@@ -4,6 +4,7 @@ import './App.css';
 import Header from './Components/Header';
 import MainPage from './Page/MainPage';
 import NotFoundPage from './Page/NotFoundPage';
+import PortfolioPage from './Page/PortfolioPage';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
           <Routes>
             <Route path='' element={<MainPage/>}></Route>
             <Route path='/main' element={<MainPage/>}></Route>
+            <Route path='/main' element={<MainPage/>}></Route>
+            <Route path='/portfolio' element={<PortfolioPage/>}></Route>
             <Route path='*' element={<NotFoundPage/>}></Route>
           </Routes>
         </main>
