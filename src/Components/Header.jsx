@@ -53,9 +53,11 @@ const Header = () => {
         </div>
         <div className={classes.contacts}>
             <div>
+                {/*
                 <div className={classes.icon}>🎮</div>
                 <div className={classes.icon}>🌐</div>
                 <div className={classes.icon}>👻</div>
+                */}
             </div>
             <div>
                 +7 930 ***-**-**

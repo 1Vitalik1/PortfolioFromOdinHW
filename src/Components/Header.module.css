@@ -56,6 +56,8 @@
         hr{
             display: inline;
             width: 3vw;
+            padding: auto;
+            
         }
         div{
             text-align: center;
@@ -63,6 +65,9 @@
             font-size: 14px;
         }
 
+    }
+    .contacts{
+        margin: auto;
     }
     
 }
