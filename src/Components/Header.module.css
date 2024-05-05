@@ -1,0 +1,103 @@
+.header{
+    padding: 0px 15vw;
+    position: sticky;
+    top: 0;
+    z-index: 500;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    border-bottom: solid whitesmoke 1px;
+    user-select: none;
+    .openMenu{
+        border-radius: 15px;
+        background-color: transparent;
+        color: white;
+        font-size: 20px;
+    }
+    .contacts{
+        display: block;
+    }
+    .icon{
+        height: max-content;
+        display: inline;
+        font-size: 20px;
+    }
+    .label{
+        margin: 1vh;
+    }
+    #label{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;    
+    }
+    #label:hover{
+        color: #366EC0;
+    }
+    .links{
+        text-align: right;
+        margin: auto;
+    } 
+    .link{
+        text-decoration: none;
+        margin-right: 2%;
+        color: white;
+        font-size: 18px;
+        margin: 15px;
+    }
+    .link:hover{
+        color: #0d5fda;
+        font-size: 20px;
+    }
+    .link:focus,#label:focus{
+        color: white;
+    }
+    .fullLabel{
+        display: flex;
+        margin: 0px;
+        width: 100%;
+        hr{
+            display: inline;
+            width: 3vw;
+        }
+        div{
+            text-align: center;
+            display: inline;
+            font-size: 14px;
+        }
+
+    }
+}
+
+@media (orientation: landscape){
+    .openMenu{
+        display: none;
+    }
+    .spliter{
+        display: none;
+    }
+}
+@media (orientation: portrait) {
+    
+    .header{
+        display: block;
+        padding: 0px;
+    }
+    .label{
+        display: inline;
+        width: 100vw;
+    }
+    .openMenu{
+        display: inline;
+        min-width: 5vw;
+        max-width: 10vw;
+        margin: 1vw;
+    }
+    .links{
+        display: block;
+    }
+    .link{
+        display: block;
+        text-align: center;
+        padding: 5px;
+    }
+}
