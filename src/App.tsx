@@ -12,7 +12,6 @@ function App() {
         <Header/>
         <main className='Content'>
           <Routes>
-            
             <Route path='' element={<MainPage/>}></Route>
             <Route path='/main' element={<MainPage/>}></Route>
             <Route path='*' element={<NotFoundPage/>}></Route>

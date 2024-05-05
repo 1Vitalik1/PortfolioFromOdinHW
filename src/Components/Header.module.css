@@ -14,9 +14,7 @@
         color: white;
         font-size: 20px;
     }
-    .contacts{
-        display: block;
-    }
+
     .icon{
         height: max-content;
         display: inline;
@@ -66,18 +64,25 @@
         }
 
     }
+    
 }
 
 @media (orientation: landscape){
+    .contacts{
+        display: block;
+    }
     .openMenu{
         display: none;
     }
     .spliter{
         display: none;
     }
+    
 }
 @media (orientation: portrait) {
-    
+    .contacts{
+        display: none;
+    }
     .header{
         display: block;
         padding: 0px;

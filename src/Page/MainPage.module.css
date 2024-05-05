@@ -1,0 +1,18 @@
+
+.infoBlock{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 5vw;
+}
+.infoImage{
+
+}
+.infoText{
+    padding-top: 5vw;
+    text-align: left;
+    h4{
+        font-weight: 50;
+    }
+}
