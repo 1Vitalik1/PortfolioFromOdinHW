@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./PortfolioPage.module.css"
+import { Link } from "react-router-dom";
 let PortfolioPage = () => {
     return(
         <div className={classes.portfolioBlock}>
@@ -44,12 +45,46 @@ let PortfolioPage = () => {
                 <div><h1>WPF UI/UX DESIGNER</h1></div>
                 <div className={classes.subBlocks}>
                     <div className={classes.title}>Способности</div>
-                    <div>
-
+                    <div className={classes.skills}>
+                        <div className={classes.skill}>
+                            <div className={classes.skillTitle}>
+                                <div>C# form</div>
+                                <div>9/10</div>
+                            </div>
+                            <progress value="9" max="10"></progress>
+                        </div>
+                        <div className={classes.skill}>
+                            <div className={classes.skillTitle}>
+                                <div>C# WPF</div>
+                                <div>8/10</div>
+                            </div>
+                            <progress value="8" max="10"></progress>
+                        </div>
+                        <div className={classes.skill}>
+                            <div className={classes.skillTitle}>
+                                <div>C# UWP</div>
+                                <div>6/10</div>
+                            </div>
+                            <progress value="6" max="10"></progress>
+                        </div>
+                        <div className={classes.skill}>
+                            <div className={classes.skillTitle}>
+                                <div>C# Console</div>
+                                <div>9/10</div>
+                            </div>
+                            <progress value="9" max="10"></progress>
+                        </div>
+                        <div>Меня завут Перфилов Виталий, я C# разработчик. Я создаю адаптивные windows приложения на фреймворке wpf, а также Windows Form. Все мои работы вы можете посмотреть на профиле GitHub. Если вас заинтересовали мои работы, то с радостью приму заказ на создания программного обеспечения любой сложности</div>
+                        <Link className={classes.link}>Контакты</Link>
                     </div>
                     <div className={classes.title}>Инструменты</div>
-                    <div>
-                        
+                    <div className={classes.tools}>
+                        <h3>VisualStudio</h3>
+                        <h3>VisualStudioCode</h3>
+                        <h3>Figma</h3>
+                        <h3>Lunacy</h3>
+                        <h3>Microsoft Visio</h3>
+                        <h3>AllFusion</h3>
                     </div>
                 </div>
             </div>

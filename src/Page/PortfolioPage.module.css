@@ -40,7 +40,8 @@
             font-weight: bold;
             font-size: 20px;
             transform: rotate(180deg);
-            writing-mode: vertical-rl
+            writing-mode: vertical-rl;
+            height: 15vw;
         }
     }
 }
@@ -56,4 +57,35 @@
     div{
         display: inline;
     }
+}
+.skills{
+    width: 45%;
+}
+.skill{
+    padding: 10px 20px;
+    margin: 0px;
+    .skillTitle{
+        display: flex;
+        justify-content: space-between;
+    }
+    progress{
+        width: 100%;
+    }
+
+}
+.tools{
+    width: 45%;
+}
+.link{
+    display: block;
+    width: 150px;
+    margin: auto;
+    margin-top: 35px;
+    border: 1px solid;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+}
+.link:hover{
+    color: #0d5fda;
 }
