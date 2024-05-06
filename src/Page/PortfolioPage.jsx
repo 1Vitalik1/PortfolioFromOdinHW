@@ -75,7 +75,7 @@ let PortfolioPage = () => {
                             <progress value="9" max="10"></progress>
                         </div>
                         <div>Меня завут Перфилов Виталий, я C# разработчик. Я создаю адаптивные windows приложения на фреймворке wpf, а также Windows Form. Все мои работы вы можете посмотреть на профиле GitHub. Если вас заинтересовали мои работы, то с радостью приму заказ на создания программного обеспечения любой сложности</div>
-                        <Link className={classes.link}>Контакты</Link>
+                        <Link className={classes.link} to={'/contacts'}>Контакты</Link>
                     </div>
                     <div className={classes.title}>Инструменты</div>
                     <div className={classes.tools}>
